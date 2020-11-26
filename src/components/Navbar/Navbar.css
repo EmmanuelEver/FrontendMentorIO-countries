@@ -1,0 +1,30 @@
+.navbar{
+	height: 70px;
+	background: var(--elements);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+	color: var(--textColor);
+	box-shadow: var(--boxShadowDM);
+}
+.navbar__brand{
+	font-size: calc(1rem + .5vw);
+	font-weight: 600;
+	line-height: 1;
+}
+.navbar__toggleTheme{
+	font-size: calc(.5rem + .5vw);
+	display: flex;
+	align-items: center;
+	line-height: 1;
+	font-weight: 600;
+	cursor: pointer;
+}
+.navbar__toggleTheme span{
+	margin-right: 10px;
+}
+.navbar__toggleTheme span img{
+	width: 15px;
+	object-fit: contain;
+}

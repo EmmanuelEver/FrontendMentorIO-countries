@@ -1,0 +1,11 @@
+.countries{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	position: relative;
+}
+.countries i{
+	width: 21%;
+	margin: 20px 0;
+}

@@ -1,0 +1,29 @@
+:root{
+	--darkBlueElems: hsl(209, 23%, 22%);
+	--veryDarkBlueDM: hsl(207, 26%, 17%);
+  --veryDarkBlueLM: hsl(200, 15%, 8%);
+  --darkGrey: hsl(0, 0%, 52%);
+  --veryLightGrey:hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --boxShadowDM:0px 0px 5px 6px rgba(0,0,0,0.05);
+  --background:hsl(207, 26%, 17%);
+  --elements:hsl(209, 23%, 22%);
+  --textColor:hsl(0, 0%, 100%);
+  --input:hsl(209, 23%, 22%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
